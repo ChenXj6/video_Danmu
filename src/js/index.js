@@ -43,6 +43,7 @@ const danmuData = [
 
   ; ((doc) => {
     const oDanmuVideo = doc.getElementById('J_danmuVideo')
+    console.log(oDanmuVideo.offsetWidth)
     const oDanmuCanvas = doc.getElementById('J_danmuCanvas')
     const oDanmuInput = doc.getElementsByClassName('danmu_input')[0]
     const oDanmuBtn = doc.getElementsByClassName('danmu_btn')[0]
